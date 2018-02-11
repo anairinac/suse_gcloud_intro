@@ -4,10 +4,11 @@ First steps using Google Cloud Platform + openSuSE
 This will probably look like a blog... on GitHub. But I am definitely not writing a blog. I like GitHub and versioning. 
 
 Created this repo in order to document and organize scripts concerning my first steps interacting with Google Cloud Platform. Particularly its interaction with openSuSE, since it is the OS I use, and sometimes is a bit hard to get enough information on How-To's. Hopefully this can help someone else with:
-A. Starting to use the best OS ever aka openSuSE.
-B. Starting to use Google Cloud Platform (like I am doing).
-C. Having weird ideas on how they could be using their GitHub account.
-D. Sharing their stories and code with others.
+
+  1. Starting to use the best OS ever aka openSuSE.
+  2. Starting to use Google Cloud Platform (like I am doing).
+  3. Having weird ideas on how they could be using their GitHub account.
+  4. Sharing their stories and code with others.
 
 ## The Start
 
@@ -20,6 +21,6 @@ I have a Chromebook, which I want to use in order to work on GCP instances. From
 ## What's next?
 Ok, so now I know I will be using GCP's cli (which I find awesome, cause I can actually create a GCP install script and probably configure also initial stuff there) in order to create my openSuSE instance. That means I will run that script in my current openSuSE Tumbleweed VM, which is running on VirtualBox on my home PC.
 
-Right now I already created the first version of my install script (it just verifies requirements and installs google-cloud-sdk). Now I need to review some documentation in order to initialize/configure authentication, so I can automate that part also.
+Right now I already created the [first version](https://github.com/anairinac/suse_gcloud_intro/commit/18d98436e4589dc5ca6fc44ba4841f247569fa99) of my install script (it just verifies requirements and installs google-cloud-sdk). Now I need to review some documentation in order to initialize/configure authentication, so I can automate that part also.
 
 
